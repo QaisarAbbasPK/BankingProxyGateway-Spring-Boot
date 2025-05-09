@@ -114,7 +114,7 @@ CREATE TABLE `service_routes` (
 --
 
 INSERT INTO `service_routes` (`id`, `connect_timeout`, `created_at`, `ip_address`, `is_active`, `read_timeout`, `remarks`, `service_key`, `service_name`, `service_url`, `updated_at`, `updated_by`, `vendor_id`) VALUES
-(1, 30000, '2025-05-09 13:26:32.000000', '192.11.10.12', b'1', 30000, 'JASON Place Holder', 'mwx', 'mwx', 'http://192.168.7.84', '2025-05-09 13:26:32.000000', 'Ali', 1);
+(1, 30000, '2025-05-09 13:26:32.000000', '192.11.10.12', b'1', 30000, 'JASON Place Holder', 'jsonplaceholder', 'jsonplaceholder', 'https://jsonplaceholder.typicode.com', '2025-05-09 13:26:32.000000', 'Ali', 1);
 
 -- --------------------------------------------------------
 
